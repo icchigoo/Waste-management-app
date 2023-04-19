@@ -35,7 +35,7 @@ const RegisterAsPerson = ({navigation}) => {
             if(!signUpError){
                 await auth.currentUser.sendEmailVerification({
                     handleCodeInApp: true,
-                    url: "https://testing-app-63e4d.firebaseapp.com"
+                    url: "https://swms-e87cc.firebaseapp.com"
 
                 })
                 .then(() => {
