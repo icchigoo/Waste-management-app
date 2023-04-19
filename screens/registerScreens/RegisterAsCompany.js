@@ -36,7 +36,7 @@ const RegisterAsCompany = ({navigation}) => {
             if(!signUpError){
                 auth.currentUser.sendEmailVerification({
                     handleCodeInApp: true,
-                    url: "https://testing-app-63e4d.firebaseapp.com"
+                    url: "https://decycler-f50a7.firebaseapp.com"
                 })
                 .then(() => {
                     alert("Verification email sent, check your inbox!");

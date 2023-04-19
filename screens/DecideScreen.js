@@ -19,7 +19,7 @@ const DecideScreen = () => {
       <Animatable.View style={styles.buttonContainer} animation="fadeInLeft">
         <TouchableOpacity style={styles.button} onPress={() => {navigation.navigate("LoginAsPers")}}>
           <Text style={styles.buttonText}>
-              Malai fhor falna maan cha
+              I want to get rid of it
           </Text>
         </TouchableOpacity>
       </Animatable.View>
@@ -27,13 +27,13 @@ const DecideScreen = () => {
       <Animatable.Text 
         animation="fadeInDown"
         className="text-center text-[#022b26] font-bold text-[20px]">
-          Tepai lai k garna maan cha ta
+          What do you want to do with the waste ?
       </Animatable.Text>
 
       <Animatable.View style={styles.buttonContainer} animation="fadeInLeft">
         <TouchableOpacity style={styles.button} onPress={() => {navigation.navigate("LoginAsComp")}}>
           <Text style={styles.buttonText}>
-              Malai fhor lina maan cha
+              I want to take it away
           </Text>
         </TouchableOpacity>
       </Animatable.View>

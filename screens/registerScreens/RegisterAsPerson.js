@@ -36,6 +36,7 @@ const RegisterAsPerson = ({navigation}) => {
                 await auth.currentUser.sendEmailVerification({
                     handleCodeInApp: true,
                     url: "https://testing-app-63e4d.firebaseapp.com"
+
                 })
                 .then(() => {
                     alert("Verification email sent, check your inbox!");

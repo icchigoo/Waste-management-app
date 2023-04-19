@@ -28,7 +28,7 @@ setTimeout(() => {
       />
       <Animatable.Text 
       className="opacity-40 font-bold text-white text-[15px] top-[67%]"
-      animation={"slideInUp"}> Powered by Mugi </Animatable.Text>
+      animation={"slideInUp"}> Powered by Devastation </Animatable.Text>
         
        
     </View>

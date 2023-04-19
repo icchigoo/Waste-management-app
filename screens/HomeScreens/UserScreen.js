@@ -50,7 +50,7 @@ const UserScreen = ({navigation}) => {
         </TouchableOpacity>
 
         <View className='flex-1 items-center'>
-          <Text className='font-bold text-[#086b2e] text-lg'>Tepai ko kria kalap haru</Text>
+          <Text className='font-bold text-[#086b2e] text-lg'>Your Posts</Text>
         </View>
 
         <View className=' items-end mx-3 space-x-2 pb-4 '>
@@ -83,7 +83,7 @@ const UserScreen = ({navigation}) => {
       {/* New post button */}
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} onPress={() => {navigation.navigate('AddNewPost')}}>
-            <Text style={styles.buttonText}>Naya mug</Text>
+            <Text style={styles.buttonText}>New Post</Text>
         </TouchableOpacity>
       </View>
 

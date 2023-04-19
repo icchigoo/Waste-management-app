@@ -67,7 +67,7 @@ const ProfileScreen = ({
 className="items-center"
 animation="fadeInDown"
 >
-<Text className="text-[25px]"> Swagat cha mugi, <Text className="text-[#086b2e] font-bold">{userData.firstname}</Text>! </Text>
+<Text className="text-[25px]"> Hello, <Text className="text-[#086b2e] font-bold">{userData.firstname}</Text>! </Text>
 </Animatable.View>
 
         {/* Randuri nume/prenume/email */}
@@ -77,7 +77,7 @@ animation="fadeInDown"
 
       {/*Active Orders*/}
       
-    <Text className="mt-5 mb-5 font-bold text-2xl">Purano Kriya kalap haru</Text>
+    <Text className="mt-5 mb-5 font-bold text-2xl">Post History</Text>
 
       <FlatList 
       animation="fadeInLeft"
