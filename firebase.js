@@ -8,12 +8,12 @@ import "firebase/compat/storage";
  
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCLRqWjUpQ8RvGqIqihEw5JLSZBzkCUKC8",
-    authDomain: "testing-app-63e4d.firebaseapp.com",
-    projectId: "testing-app-63e4d",
-    storageBucket: "testing-app-63e4d.appspot.com",
-    messagingSenderId: "5172518899",
-    appId: "1:5172518899:web:663f73eb398849d4d2fc86"
+    apiKey: "AIzaSyCDrc52WOsixc7Q3w2lfRHphFUvWCXyNTo",
+    authDomain: "swms-e87cc.firebaseapp.com",
+    projectId: "swms-e87cc",
+    storageBucket: "swms-e87cc.appspot.com",
+    messagingSenderId: "1006890003896",
+    appId: "1:1006890003896:web:5a72ea122d2f2c1541334d"
 };
 
 // const firebaseConfig = {

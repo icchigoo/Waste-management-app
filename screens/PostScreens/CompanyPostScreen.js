@@ -55,7 +55,7 @@ const CompanyPostScreen = ({route, navigation}) => {
         })
         doc.update({uniqueid: doc.id});
 
-        alert("Offer sent");
+        alert("Date sent");
       navigation.navigate("CompanyPage"); 
   };
 
@@ -93,14 +93,14 @@ const CompanyPostScreen = ({route, navigation}) => {
 
      <View  className='mt-12' style={styles.lowerContainer}>
         <TextInput className='mt-12'
-            placeholder="Your offer"
+            placeholder="Day"
             value={money}
             onChangeText={text => setMoney(text)}
             style={styles.input}
         />
 
         <TouchableOpacity className='mt-2' style={styles.button} onPress={handleOffer}>
-            <Text style={styles.buttonText}>Offer price</Text>
+            <Text style={styles.buttonText}>Day</Text>
         </TouchableOpacity>
      </View>
 
